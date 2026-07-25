@@ -12,7 +12,6 @@
 
 <body>
 
-    <!-- Mobile Header -->
     <header class="mobile-header">
         <span class="mobile-logo">Nandi Shandu</span>
         <button class="hamburger" id="hamburger" aria-label="Open menu">
@@ -20,17 +19,16 @@
         </button>
     </header>
 
-    <!-- Sidebar -->
     <aside class="sidebar" id="sidebar">
         <div class="sidebar-inner">
             <div class="sidebar-brand">
-                <img src="profile.jpg" style="width: 48px; height: 48px; border-radius: 4px; object-fit: cover;" alt="Nandi Shandu">
+                <img src="images/profile.jpg" alt="Nandi Shandu">
                 <h3>Nandi Shandu</h3>
                 <p>App Development Student</p>
             </div>
             <nav class="sidebar-nav">
                 <ul>
-                    <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="Portfolio.html" class="active"><i class="fas fa-home"></i> Home</a></li>
                     <li><a href="AboutMe.html"><i class="fas fa-user"></i> About Me</a></li>
                     <li><a href="MyProjects.html"><i class="fas fa-code"></i> Projects</a></li>
                     <li><a href="ContactDetails.html"><i class="fas fa-envelope"></i> Contact</a></li>
@@ -47,7 +45,6 @@
     </aside>
     <div class="menu-overlay" id="overlay"></div>
 
-    <!-- Main Content -->
     <main class="main">
 
         <!-- Hero -->
@@ -57,14 +54,14 @@
                 <h1 class="hero-name">Nandi<br><em>Shandu</em></h1>
                 <p class="hero-tagline">
                     Final-year Application Development student at DUT building full-stack systems with
-                    C#, ASP.NET MVC, and SQL Server, and stepping into UI/UX design with Figma.
+                    C#, ASP.NET Core, and SQL Server, with a strong focus on backend architecture and REST API development.
                 </p>
                 <div class="hero-chips">
                     <span class="chip green">C# &amp; ASP.NET MVC</span>
                     <span class="chip green">SQL Server</span>
-                    <span class="chip">ASP.NET Core <small>(learning)</small></span>
-                    <span class="chip">Figma / UI/UX <small>(learning)</small></span>
+                    <span class="chip green">ASP.NET Core</span>
                     <span class="chip">Azure</span>
+                    <span class="chip">HTML &amp; CSS</span>
                 </div>
                 <div class="hero-actions">
                     <a href="MyProjects.html" class="btn-primary"><i class="fas fa-code"></i> View Projects</a>
@@ -72,13 +69,12 @@
                 </div>
             </div>
             <div class="hero-image-col">
-                <img src="profile.jpg" class="hero-avatar" alt="Nandi Shandu">
+                <img src="images/profile.jpg" class="hero-avatar" alt="Nandi Shandu">
             </div>
         </section>
 
         <div class="divider"></div>
 
-        <!-- Page Content -->
         <div class="page-wrap">
 
             <!-- Stats -->
@@ -88,12 +84,12 @@
                     <span class="stat-label">Years at DUT</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">4+</span>
-                    <span class="stat-label">Technologies</span>
+                    <span class="stat-number">5+</span>
+                    <span class="stat-label">Core Technologies</span>
                 </div>
                 <div class="stat-item">
-                    <span class="stat-number">2</span>
-                    <span class="stat-label">Deployed Projects</span>
+                    <span class="stat-number">3</span>
+                    <span class="stat-label">Full-Stack Projects</span>
                 </div>
             </div>
 
@@ -102,19 +98,38 @@
             <div class="projects-grid">
 
                 <div class="project-card">
+                    <div class="project-thumb thumb-teal">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-client">Smart Recycling App</p>
+                        <h3 class="project-title">Eco Rewards System</h3>
+                        <p class="project-desc">Full-stack web application for tracking recyclable waste, calculating environmental impact, and assigning redeemable eco-points.</p>
+                        <div class="project-tags">
+                            <span class="tag">C#</span>
+                            <span class="tag">ASP.NET Core</span>
+                            <span class="tag">SQL Server</span>
+                            <span class="tag">HTML/CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Nandi288" target="_blank" class="link-btn link-btn-outline"><i class="fab fa-github"></i> View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
                     <div class="project-thumb thumb-dark">
                         <i class="fas fa-shield-halved"></i>
                     </div>
                     <div class="project-body">
                         <p class="project-client">Pirana Guarding</p>
                         <h3 class="project-title">Security Management System</h3>
-                        <p class="project-desc">Full-stack web application for a security company, from database schema to MVC front-end, with Azure deployment.</p>
+                        <p class="project-desc">Full-stack web application for a security company, from database schema to MVC front-end, deployed on Azure.</p>
                         <div class="project-tags">
                             <span class="tag">C#</span>
                             <span class="tag">ASP.NET MVC</span>
                             <span class="tag">SQL Server</span>
                             <span class="tag">Azure</span>
-                            <span class="tag">JavaScript</span>
                         </div>
                         <div class="project-links">
                             <a href="https://github.com/Sfundo03/PiranaSecuritySystem" target="_blank" class="link-btn link-btn-outline"><i class="fab fa-github"></i> View Code</a>
@@ -122,52 +137,33 @@
                     </div>
                 </div>
 
-                <div class="project-card">
-                    <div class="project-thumb thumb-teal">
-                        <i class="fas fa-gamepad"></i>
-                    </div>
-                    <div class="project-body">
-                        <p class="project-client">Android Mobile App</p>
-                        <h3 class="project-title">Memory Match Game</h3>
-                        <p class="project-desc">An interactive memory-matching game for Android with multiple difficulty levels and local score tracking via SQLite.</p>
-                        <div class="project-tags">
-                            <span class="tag">Java</span>
-                            <span class="tag">Android Studio</span>
-                            <span class="tag">XML</span>
-                            <span class="tag">SQLite</span>
-                        </div>
-                        <div class="project-links">
-                            <a href="https://github.com/Nandi288/MemoryMatchGame/tree/master/app/src/main/java/com/example/memorymatchgame" target="_blank" class="link-btn link-btn-outline"><i class="fab fa-github"></i> View Code</a>
-                        </div>
-                    </div>
-                </div>
-
             </div>
 
-            <!-- Skills -->
+            <!-- Technical Skills -->
             <p class="section-label">Technical Skills</p>
             <div class="skills-grid" style="margin-bottom: 64px;">
                 <div class="skill-group">
                     <p class="skill-group-label">Backend</p>
                     <div class="skill-list">
                         <span class="skill-item">C#</span>
+                        <span class="skill-item">ASP.NET Core Web API</span>
                         <span class="skill-item">ASP.NET MVC</span>
-                        <span class="skill-item">SQL Server</span>
-                        <span class="skill-item learning">ASP.NET Core ✦ learning</span>
+                        <span class="skill-item">Microsoft SQL Server</span>
                     </div>
                 </div>
                 <div class="skill-group">
-                    <p class="skill-group-label">Frontend</p>
+                    <p class="skill-group-label">Frontend &amp; DB</p>
                     <div class="skill-list">
-                        <span class="skill-item">HTML &amp; CSS</span>
-                        <span class="skill-item learning">Figma / UI/UX ✦ learning</span>
+                        <span class="skill-item">HTML5 &amp; CSS3</span>
+                        <span class="skill-item">Bootstrap</span>
+                        <span class="skill-item learning">Entity Framework Core</span>
                     </div>
                 </div>
                 <div class="skill-group">
                     <p class="skill-group-label">Tools &amp; Cloud</p>
                     <div class="skill-list">
                         <span class="skill-item">Azure App Services</span>
-                        <span class="skill-item">GitHub</span>
+                        <span class="skill-item">GitHub / Git</span>
                         <span class="skill-item">Visual Studio</span>
                     </div>
                 </div>
@@ -177,7 +173,7 @@
             <div class="cta-block">
                 <div>
                     <h2>Looking for opportunities</h2>
-                    <p>Final-year student open to internships, graduate roles, and collaborations in full-stack development.</p>
+                    <p>Final-year student open to internships, graduate roles, and full-stack software development opportunities.</p>
                 </div>
                 <div class="cta-actions">
                     <a href="ContactDetails.html" class="btn-white"><i class="fas fa-envelope"></i> Get in Touch</a>
@@ -202,14 +198,8 @@
         const btn = document.getElementById('hamburger');
         const sidebar = document.getElementById('sidebar');
         const overlay = document.getElementById('overlay');
-        btn.addEventListener('click', () => {
-            sidebar.classList.toggle('open');
-            overlay.classList.toggle('active');
-        });
-        overlay.addEventListener('click', () => {
-            sidebar.classList.remove('open');
-            overlay.classList.remove('active');
-        });
+        btn.addEventListener('click', () => { sidebar.classList.toggle('open'); overlay.classList.toggle('active'); });
+        overlay.addEventListener('click', () => { sidebar.classList.remove('open'); overlay.classList.remove('active'); });
     </script>
 </body>
 
