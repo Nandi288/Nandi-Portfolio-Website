@@ -307,6 +307,8 @@ body {
     width: 320px;
     height: 420px;
     object-fit: cover;
+    object-position: top center;
+    /* Keeps your face and head in full view */
     border-radius: 24px;
     border: 1px solid var(--surface-card-border);
     box-shadow: var(--card-shadow);
@@ -401,8 +403,11 @@ body {
 
 .about-card-img {
     width: 100%;
-    height: 280px;
+    height: 340px;
+    /* Slightly taller for better portrait proportion */
     object-fit: cover;
+    object-position: top center;
+    /* Fixes cropping so your entire face shows */
     border-radius: 14px;
     margin-bottom: 20px;
     display: block;
