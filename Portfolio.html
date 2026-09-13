@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nandi-Gabriella Shandu — Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Glass Navigation -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="Portfolio.html" class="nav-logo">Nandi<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="AboutMe.html">About</a></li>
+                <li><a href="MyProjects.html">Projects</a></li>
+                <li><a href="Certificates.html">Certificates</a></li>
+                <li><a href="ContactDetails.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="menuToggle" class="mobile-toggle" aria-label="Open Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-glow"></div>
+        <div class="hero-container">
+            <div class="hero-text-col">
+                <div class="status-pill">
+                    <span class="status-dot"></span>
+                    <span>Available for tech-related opportunities</span>
+                </div>
+
+                <h1 class="hero-title">
+                    Nandi-Gabriella<br>
+                    <span class="script-surname">Shandu.</span>
+                </h1>
+
+                <p class="hero-role">
+                    Software Developer · ICT Application Development Student
+                </p>
+                <p class="hero-subtext">
+                    Full-stack developer building robust, modern solutions across <span class="highlight">C#</span>,
+                    <span class="highlight">ASP.NET Core</span>, and <span class="highlight">SQL Server</span>.
+                </p>
+
+
+                <div class="hero-btn-group">
+                    <a href="MyProjects.html" class="btn-gradient">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="ContactDetails.html" class="btn-glass"><i class="fas fa-envelope"></i> Contact Me</a>
+                    <a href="Nandi_Gabriella_Shandu_Resume.pdf" download class="btn-outline">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-image-col">
+                <div class="portrait-glow-ring"></div>
+                <img src="images/profile.jpg" alt="Nandi-Gabriella Shandu" class="hero-portrait">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+        <div class="container">
+            <div class="about-wrapper">
+                <div class="about-content">
+                    <p class="section-tag">— ABOUT ME</p>
+                    <h2 class="section-heading">Driven by problem-solving,<br><span class="accent-text">guided by
+                            engineering.</span></h2>
+                    <p>
+                        I am a final-year student pursuing a <strong>Diploma in ICT: Application Development</strong> at
+                        the <strong>Durban University of Technology</strong>. My primary technical focus is full-stack
+                        application development, building scalable backend services, designing efficient databases, and
+                        developing clean user interfaces.
+                    </p>
+                    <p>
+                        I thrive in collaborative agile environments and hackathons like the <em>KZN Imbokodo
+                            Hackathon</em>, transforming community-centered ideas into functional platforms that solve
+                        real-world problems.
+                    </p>
+                    <div class="about-stats-grid">
+                        <div class="mini-stat">
+                            <h3>Final Year</h3>
+                            <p>DUT ICT Student</p>
+                        </div>
+                        <div class="mini-stat">
+                            <h3>5+</h3>
+                            <p>Full-Stack Systems</p>
+                        </div>
+                        <div class="mini-stat">
+                            <h3>Multiple</h3>
+                            <p>Certificates &amp; Awards</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Photo Card with Stacked Pills -->
+                <div class="about-card-col">
+                    <div class="about-card">
+                        <img src="images/nandi-1.jpg" alt="Nandi Shandu" class="about-card-img">
+                        <div class="about-badge-list">
+                            <div class="badge-pill">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Diploma in ICT: Application Development</span>
+                            </div>
+                            <div class="badge-pill">
+                                <i class="fas fa-certificate"></i>
+                                <span>Multiple Verified Credentials</span>
+                            </div>
+                            <div class="badge-pill">
+                                <i class="fas fa-location-dot"></i>
+                                <span>Based in Durban, open to relocate</span>
+                            </div>
+                            <div class="badge-pill highlight">
+                                <i class="fas fa-circle-check"></i>
+                                <span>Open to work</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <p class="section-tag">— SKILLS</p>
+            <h2 class="section-heading">What I work <span class="accent-text">with.</span></h2>
+            <p class="section-subtext">A curated stack honed through academic coursework, hackathons, and software
+                projects.</p>
+
+            <div class="skills-card-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon"><i class="fas fa-code"></i></div>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <ul class="skill-tags">
+                        <li>C#</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon"><i class="fas fa-layer-group"></i></div>
+                        <h3>Web Technologies</h3>
+                    </div>
+                    <ul class="skill-tags">
+                        <li>ASP.NET MVC</li>
+                        <li>ASP.NET Core (.NET 8)</li>
+                        <li>Entity Framework Core</li>
+                        <li>Bootstrap 5</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon"><i class="fas fa-database"></i></div>
+                        <h3>Database Management</h3>
+                    </div>
+                    <ul class="skill-tags">
+                        <li>Microsoft SQL Server</li>
+                        <li>SSMS</li>
+                        <li>Azure Cosmos DB</li>
+                        <li>Relational Schema Design</li>
+                    </ul>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon"><i class="fas fa-screwdriver-wrench"></i></div>
+                        <h3>Tools &amp; Platforms</h3>
+                    </div>
+                    <ul class="skill-tags">
+                        <li>Azure Computer Vision API</li>
+                        <li>Azure Blob Storage</li>
+                        <li>Git &amp; GitHub</li>
+                        <li>Visual Studio / VS Code</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <p class="section-tag">— PROJECTS</p>
+            <h2 class="section-heading">Selected <span class="accent-text">Work.</span></h2>
+            <p class="section-subtext">Recent full-stack web platforms, AI applications, and enterprise systems.</p>
+
+            <div class="projects-grid">
+                <!-- 1. VisionScribe -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/vision-scribe.png" alt="VisionScribe Application Screenshot"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">AI Cloud Intelligence Application</span>
+                        <h3>VisionScribe</h3>
+                        <p>An ASP.NET Core MVC (.NET 8) platform utilizing Azure Computer Vision APIs and Blob Storage
+                            to parse, tag, and synthesize descriptions from images with an in-memory caching layer
+                            (IMemoryCache).</p>
+                        <div class="tag-row">
+                            <span>C#</span><span>ASP.NET Core</span><span>Azure Vision API</span><span>Blob
+                                Storage</span><span>IMemoryCache</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/VisionScribe" target="_blank" class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. HerCycle -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/Hercycle.png" alt="HerCycle Marketplace Screenshot"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">KZN Imbokodo Hackathon</span>
+                        <h3>HerCycle Marketplace</h3>
+                        <p>A B2B platform enabling local female entrepreneurs to showcase and market menstrual health
+                            products with architectures planned for integration into period-tracking mobile apps.</p>
+                        <div class="tag-row">
+                            <span>C#</span><span>ASP.NET MVC</span><span>SQL Server</span><span>Marketplace</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/HerCycle" target="_blank" class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Eco Rewards -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/Ecorewards.png" alt="Eco Rewards System Screenshot"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Sustainability Application</span>
+                        <h3>Eco Rewards System</h3>
+                        <p>Incentivizing recycling habits via interactive Chart.js dashboards, automated PDF receipt
+                            generation via iTextSharp, and Excel report exports with EPPlus.</p>
+                        <div class="tag-row">
+                            <span>C#</span><span>ASP.NET
+                                MVC</span><span>Chart.js</span><span>iTextSharp</span><span>EPPlus</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/SmartRecyclingRewardsSystem" target="_blank"
+                                class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Student Management System -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/future-tech.png" alt="Student Management System Screenshot"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Academic Group Project · Azure Cloud</span>
+                        <h3>Student Management System</h3>
+                        <p>Full-stack ASP.NET Core MVC platform hosted on Azure. Implements OAuth 2.0 (Google/GitHub),
+                            Role-Based Access Control, Azure Cosmos DB persistence, and Blob Storage SAS tokens.</p>
+                        <div class="tag-row">
+                            <span>ASP.NET Core</span><span>Azure</span><span>Cosmos DB</span><span>OAuth
+                                2.0</span><span>RBAC</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/FutureTech-StudentManagement" target="_blank"
+                                class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Pirana Security -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/pirana.png" alt="Pirana Security Management Screenshot"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Enterprise Client Solution</span>
+                        <h3>Security Management System</h3>
+                        <p>Operational security solution for Pirana Guarding to manage guard rosters, client sites,
+                            incident logs, and QR code check-outs with Azure App Services deployment.</p>
+                        <div class="tag-row">
+                            <span>C#</span><span>ASP.NET MVC</span><span>SQL Server</span><span>Azure App
+                                Services</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Sfundo03/PiranaSecuritySystem" target="_blank"
+                                class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section class="section" id="certificates">
+        <div class="container">
+            <p class="section-tag">— CREDENTIALS</p>
+            <h2 class="section-heading">Verified <span class="accent-text">Certificates.</span></h2>
+            <p class="section-subtext">Continuous technical training, networking credentials, and professional
+                certifications.</p>
+
+            <div class="cert-filter-pills">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="security">Security &amp; Networking</button>
+                <button class="filter-btn" data-filter="dev">Development &amp; OS</button>
+                <button class="filter-btn" data-filter="progress">In Progress</button>
+            </div>
+
+            <div class="certificates-grid">
+                <!-- 1. Cybersecurity -->
+                <div class="cert-glass-card" data-category="security">
+                    <div class="cert-icon-wrap"><i class="fas fa-shield-halved"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-provider">Security</span>
+                        <h4>Cybersecurity Certification</h4>
+                        <p>Foundations &amp; Threat Defense</p>
+                        <div class="cert-btn-group">
+                            <a href="certificates/cybersecurity-certificate.pdf" target="_blank"
+                                class="cert-action-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="certificates/cybersecurity-certificate.pdf"
+                                download="Nandi_Shandu_Cybersecurity_Certificate.pdf" class="cert-action-btn"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. FNB Academy -->
+                <div class="cert-glass-card" data-category="dev">
+                    <div class="cert-icon-wrap"><i class="fas fa-building-columns"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-provider">FNB Academy</span>
+                        <h4>FNB Academy Technical Training</h4>
+                        <p>Industry Preparation &amp; Application Development</p>
+                        <div class="cert-btn-group">
+                            <a href="certificates/fnb-academy-certificate.pdf" target="_blank"
+                                class="cert-action-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="certificates/fnb-academy-certificate.pdf"
+                                download="Nandi_Shandu_FNB_Academy_Certificate.pdf" class="cert-action-btn"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Linux -->
+                <div class="cert-glass-card" data-category="dev">
+                    <div class="cert-icon-wrap"><i class="fas fa-terminal"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-provider">Operating Systems</span>
+                        <h4>Introduction to Linux</h4>
+                        <p>System Administration &amp; CLI</p>
+                        <div class="cert-btn-group">
+                            <a href="certificates/linux-certificate.pdf" target="_blank" class="cert-action-btn"><i
+                                    class="fas fa-eye"></i> View</a>
+                            <a href="certificates/linux-certificate.pdf" download="Nandi_Shandu_Linux_Certificate.pdf"
+                                class="cert-action-btn"><i class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Cisco Packet Tracer -->
+                <div class="cert-glass-card" data-category="security">
+                    <div class="cert-icon-wrap"><i class="fas fa-network-wired"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-provider">Cisco / Networking</span>
+                        <h4>Cisco Packet Tracer</h4>
+                        <p>Network Architecture &amp; Routing</p>
+                        <div class="cert-btn-group">
+                            <a href="certificates/packet-tracer-certificate.pdf" target="_blank"
+                                class="cert-action-btn"><i class="fas fa-eye"></i> View</a>
+                            <a href="certificates/packet-tracer-certificate.pdf"
+                                download="Nandi_Shandu_Packet_Tracer_Certificate.pdf" class="cert-action-btn"><i
+                                    class="fas fa-download"></i> Download</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Tech Bridge Innovation (In Progress) -->
+                <div class="cert-glass-card" data-category="progress">
+                    <div class="cert-icon-wrap"><i class="fas fa-laptop-code"></i></div>
+                    <div class="cert-body">
+                        <span class="cert-provider">Tech Bridge Innovation</span>
+                        <h4>Front-End Development Track</h4>
+                        <p>12-Week Intensive Front-End Program</p>
+                        <div class="cert-btn-group">
+                            <span class="badge-pill highlight"
+                                style="display:inline-flex; align-items:center; gap:6px; padding:6px 12px; font-size:0.75rem; border-radius:6px;">
+                                <i class="fas fa-spinner fa-spin"></i> In Progress · Completing Nov 2026
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="contact-card-centered">
+                <p class="section-tag" style="text-align: center;">— GET IN TOUCH</p>
+                <h2 class="section-heading" style="text-align: center;">Let's build something <span
+                        class="accent-text">great together.</span></h2>
+                <p style="text-align: center; max-width: 500px; margin: 0 auto 32px; color: var(--text-mid);">
+                    Currently open to graduate software developer positions, internships, and full-stack junior roles
+                    across South Africa.
+                </p>
+
+                <div class="contact-methods">
+                    <a href="mailto:nandishandu51@gmail.com" class="contact-badge">
+                        <i class="fas fa-envelope"></i> nandishandu51@gmail.com
+                    </a>
+                    <a href="tel:0743142722" class="contact-badge">
+                        <i class="fab fa-whatsapp" style="color: #25D366;"></i> 074 314 2722
+                    </a>
+                    <a href="https://www.linkedin.com/in/nandi-shandu-079231384" target="_blank" class="contact-badge">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <a href="https://github.com/Nandi288" target="_blank" class="contact-badge">
+                        <i class="fab fa-github"></i> GitHub
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 Nandi-Gabriella Shandu · Durban, South Africa</p>
+            <div class="footer-links">
+                <a href="index.html">Back to top <i class="fas fa-arrow-up"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="theme.js"></script>
+</body>
+
+</html>

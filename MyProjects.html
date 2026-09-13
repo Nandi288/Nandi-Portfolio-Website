@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Nandi Shandu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Top Glass Navigation -->
+    <nav class="top-nav">
+        <div class="nav-container">
+            <a href="index.html#home" class="nav-logo">Nandi<span>.</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">About</a></li>
+                <li><a href="index.html">Skills</a></li>
+                <li><a href="MyProjects.html" class="active">Projects</a></li>
+                <li><a href="Certificates.html">Certificates</a></li>
+                <li><a href="ContactDetails.html">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="themeToggle" class="icon-btn" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button id="menuToggle" class="mobile-toggle" aria-label="Open Menu">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <main class="section" style="padding-top: 130px;">
+        <div class="container">
+            <p class="section-tag">— PORTFOLIO SHOWCASE</p>
+            <h1 class="section-heading">Work I've <span class="accent-text">Built.</span></h1>
+            <p class="section-subtext">A collection of full-stack web applications, AI cloud integrations, mobile
+                applications, and enterprise systems.</p>
+
+            <div class="projects-grid">
+                <!-- 1. VisionScribe -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/vision-scribe.png" alt="VisionScribe Application"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">AI Cloud Intelligence</span>
+                        <h3>VisionScribe</h3>
+                        <p>ASP.NET Core (.NET 8) platform integrating Azure Computer Vision APIs and Blob Storage to
+                            parse, tag, and generate descriptions from photos with an in-memory caching layer
+                            (IMemoryCache).</p>
+                        <div class="tag-row">
+                            <span>C#</span><span>ASP.NET Core</span><span>Azure AI</span><span>Blob
+                                Storage</span><span>IMemoryCache</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/PhotoDescriberApp" target="_blank" class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 2. HerCycle -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/Hercycle.png" alt="HerCycle Marketplace"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">KZN Imbokodo Hackathon</span>
+                        <h3>HerCycle Marketplace</h3>
+                        <p>A B2B platform enabling female entrepreneurs to advertise menstrual health products with
+                            integration workflows designed for period-tracking apps.</p>
+                        <div class="tag-row">
+                            <span>C#</span><span>ASP.NET MVC</span><span>SQL Server</span><span>Marketplace</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/HerCycle" target="_blank" class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 3. Eco Rewards -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/Ecorewards.png" alt="Eco Rewards System"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Smart Recycling System</span>
+                        <h3>Eco Rewards System</h3>
+                        <p>Web application built to incentivize recycling habits with dynamic Chart.js metric
+                            visualizations, automated iTextSharp PDF receipts, and EPPlus Excel exports.</p>
+                        <div class="tag-row">
+                            <span>C#</span><span>ASP.NET MVC</span><span>SQL
+                                Server</span><span>Chart.js</span><span>iTextSharp</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/SmartRecyclingRewardsSystem" target="_blank"
+                                class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 4. Student Management System -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/future-tech.png" alt="Student Management System"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Azure Cloud Project</span>
+                        <h3>Student Management System</h3>
+                        <p>Engineered a full-stack student management portal in ASP.NET Core MVC deployed to Azure App
+                            Services. Features OAuth 2.0 (Google/GitHub), Azure Cosmos DB, and Blob Storage.</p>
+                        <div class="tag-row">
+                            <span>ASP.NET Core</span><span>Azure</span><span>Cosmos DB</span><span>Blob
+                                Storage</span><span>OAuth 2.0</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/FutureTech-StudentManagement" target="_blank"
+                                class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 5. Pirana Security -->
+                <div class="project-glass-card">
+                    <div class="project-mockup">
+                        <img src="images/pirana.png" alt="Pirana Security Management"
+                            style="width:100%; height:100%; object-fit:cover;">
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Pirana Guarding Solution</span>
+                        <h3>Security Management System</h3>
+                        <p>Production-level full-stack application managing guard rosters, site placements, and incident
+                            reports with QR code check-outs, deployed live on Azure App Services.</p>
+                        <div class="tag-row">
+                            <span>C#</span><span>ASP.NET MVC</span><span>SQL Server</span><span>Azure</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Sfundo03/PiranaSecuritySystem" target="_blank"
+                                class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 6. Memory Match Game -->
+                <div class="project-glass-card">
+                    <div class="project-mockup"
+                        style="background:#111c24; display:flex; align-items:center; justify-content:center;">
+                        <i class="fas fa-gamepad" style="font-size:3.5rem; color:var(--accent-cyan); opacity:0.8;"></i>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Android Mobile Application</span>
+                        <h3>Memory Match Game</h3>
+                        <p>An interactive card-matching game for Android devices. Features difficulty modes and
+                            persistent high-score tracking locally using SQLite, built with Java and XML.</p>
+                        <div class="tag-row">
+                            <span>Java</span><span>Android Studio</span><span>SQLite</span><span>XML</span>
+                        </div>
+                        <div class="project-action-row">
+                            <a href="https://github.com/Nandi288/MemoryMatchGame" target="_blank" class="action-btn">
+                                <i class="fab fa-github"></i> Repository
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GitHub CTA -->
+            <div class="contact-card-centered" style="margin-top: 64px; text-align: center;">
+                <h2 class="section-heading">Explore all repositories on <span class="accent-text">GitHub</span></h2>
+                <p style="max-width: 500px; margin: 0 auto 24px; color: var(--text-mid);">
+                    Check out all repository commits, experiments, and source files on my public profile.
+                </p>
+                <a href="https://github.com/Nandi288" target="_blank" class="btn-gradient">
+                    <i class="fab fa-github"></i> GitHub Profile
+                </a>
+            </div>
+
+            <!-- Footer -->
+            <footer class="footer" style="margin-top: 64px;">
+                <div class="footer-content">
+                    <p>© 2026 Nandi-Gabriella Shandu · Durban, South Africa</p>
+                    <div class="footer-links">
+                        <a href="index.html">Back to Home <i class="fas fa-arrow-up"></i></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+
+    <script src="theme.js"></script>
+</body>
+
+</html>
